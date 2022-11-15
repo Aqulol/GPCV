@@ -1,0 +1,165 @@
+body {
+  font-family: Montserrat, sans-serif;
+  background: #faf5f5;
+  font-size: 14px;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+aside {
+  margin-right: 88px;
+  color: #ffffff;
+  width: 370px;
+  height: 1319px;
+  left: 40px;
+  top: 55px;
+  background: #1e2939;
+}
+.aside {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.cv-photo {
+  margin: 25px 0 0 0;
+}
+.bold {
+  font-weight: 700;
+}
+.contact-block {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+
+
+/* do zmiany wszystkich kropek 
+ul
+ {
+  list-style: none;
+}
+
+ul li::before 
+{
+  content: "\2022";
+  color: #fb6d3a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+} */
+
+.whiteli {
+  color: #ffff;
+
+}
+
+.tech-skills-block {
+  margin: 47px 0 0 40px;
+}
+.dot {
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+main {
+  padding-left: 88px;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  padding-right: 88px;
+}
+.main-description {
+  width: 400px;
+}
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.projects {
+  width: 485px;
+  font-size: 22px;
+  line-height: 27px;
+  text-decoration: none;
+}
+.list-primary {
+  padding: 0px 0px 0px 0px;
+  list-style-position: inside;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: black
+}
+.listprimaryitem {
+ font-weight: 400;
+ color: #595959; 
+ font-size: 14px;
+ line-height: 24px;
+ text-decoration: none;
+}
+.freelance {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 12px;
+}
+.list {
+  font-weight: 400;
+  padding: 0 0 0 0;
+  list-style-position: inside;
+  font-size: 14px;
+  line-height: 24px;
+}
+.time {
+  font-weight: 400;
+  line-height: 15px;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 22px;
+  line-height: 27px;
+  text-decoration: none;
+}
+.dropdown-button {
+  background-color: #1e2939;
+  color: whitesmoke;
+  padding: 13px;
+  border-radius: 1.5em;
+  font-size: 12px;
+  box-shadow: 6px 8px 10px 5px rgba(0, 0, 255, .2);
+  cursor: pointer;
+}
+.dropdown-menu{
+  display: none;
+  position: absolute;
+}
+.dropdown-button:hover {
+  background-color: purple;
+}
+.dropdown-button:focus {
+ outline-color: transparent;
+ outline-style: solid;
+ box-shadow: 0 0 0 4px blue;
+ transition: 0.4s;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
