@@ -17,7 +17,6 @@ aside {
   margin-right: 88px;
   color: #ffffff;
   width: 370px;
-  height: 1319px;
   left: 40px;
   top: 55px;
   background: #1e2939;
@@ -160,6 +159,6 @@ h2 {
  box-shadow: 0 0 0 4px blue;
  transition: 0.4s;
 }
-.dropdown:hover .dropdown-menu {
+.dropdown:active  .dropdown-menu {
   display: block;
 }
